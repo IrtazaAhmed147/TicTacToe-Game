@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+.game-name{
+    text-align: center;
+    font-size: 3rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    background-color: #29004e;
+}
+#game-container{
+    width: 312px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 5px;
+}
+.info{
+   
+   gap: 5px;
+    display: flex;
+    
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #6413ae;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #5d05af;
+}
+.plyX{
+    background-color: aqua;
+    
+
+}
+.plyO{
+    background-color: gold;
+}
+.draw{
+    background-color: #b8ffff;
+}
+.btn{
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#turnFor{
+    color: #fff;
+    font-size: 20px;
+}
+
+button{
+    
+    border: none;
+   
+}
+#reset{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#newGame{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.winner{
+    width: 100%;
+    background-color: #00ac00;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top: 9px;
+}
